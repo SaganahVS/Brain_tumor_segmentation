@@ -1,7 +1,3 @@
-Here's a properly formatted version of your **Brain Tumor Classification System** project documentation, with clear sections and Markdown-friendly formatting for use in a `README.md` or documentation file:
-
----
-
 # 🧠 Brain Tumor Classification System
 
 This project implements a Brain Tumor Classification System using **Convolutional Neural Networks (CNNs)** to detect tumor types from MRI images. It uses a custom-trained model and features an interactive **Gradio UI** for image-based predictions.
@@ -97,6 +93,3 @@ import gradio as gr
 gr.Interface(fn=predict_fn, inputs="image", outputs="label").launch()
 ```
 
----
-
-Would you like help creating the actual `main.py` or model training script?
